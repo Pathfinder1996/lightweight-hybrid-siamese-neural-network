@@ -1,0 +1,7 @@
+Confusion Matrix
+
+TN: 117, FP: 3, FN: 6, TP: 114
+
+Precision: 0.974359
+Recall: 0.950000
+F1: 0.962025

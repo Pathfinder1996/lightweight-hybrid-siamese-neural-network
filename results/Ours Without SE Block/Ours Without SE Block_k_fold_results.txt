@@ -1,0 +1,32 @@
+5-Fold Results for Ours Without SE Block
+
+Dataset: Ours
+EER       : 0.007500 กำ 0.009280
+Precision : 0.994944 กำ 0.006766
+Recall    : 0.990000 กำ 0.012247
+F1        : 0.992454 กำ 0.009358
+
+Dataset: FYO
+EER       : 0.104062 กำ 0.010762
+Precision : 0.895704 กำ 0.011168
+Recall    : 0.896250 กำ 0.010533
+F1        : 0.895974 กำ 0.010729
+
+Dataset: PUT
+EER       : 0.163000 กำ 0.042965
+Precision : 0.836044 กำ 0.040360
+Recall    : 0.838000 กำ 0.047917
+F1        : 0.836961 กำ 0.043782
+
+Best fold by lowest average EER across all datasets
+Best fold index      : 2
+Average EER          : 0.073333
+Average Precision    : 0.925839
+Average Recall       : 0.927708
+Average F1           : 0.926771
+
+5-Fold final training metrics
+Avg Training Accuracy   : 0.999691 กำ 0.000154
+Avg Validation Accuracy : 0.968519 กำ 0.005487
+Avg Training Loss       : 0.010700 กำ 0.000352
+Avg Validation Loss     : 0.018332 กำ 0.000388

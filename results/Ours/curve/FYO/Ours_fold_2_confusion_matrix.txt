@@ -1,0 +1,7 @@
+Confusion Matrix
+
+TN: 290, FP: 30, FN: 30, TP: 290
+
+Precision: 0.906250
+Recall: 0.906250
+F1: 0.906250

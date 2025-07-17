@@ -1,0 +1,32 @@
+5-Fold Results for Ours
+
+Dataset: Ours
+EER       : 0.002500 กำ 0.003333
+Precision : 0.996680 กำ 0.004066
+Recall    : 0.998333 กำ 0.003333
+F1        : 0.997503 กำ 0.003332
+
+Dataset: FYO
+EER       : 0.090937 กำ 0.009550
+Precision : 0.908328 กำ 0.010638
+Recall    : 0.910000 กำ 0.008478
+F1        : 0.909159 กำ 0.009430
+
+Dataset: PUT
+EER       : 0.132000 กำ 0.029933
+Precision : 0.868000 กำ 0.029933
+Recall    : 0.868000 กำ 0.029933
+F1        : 0.868000 กำ 0.029933
+
+Best fold by lowest average EER across all datasets
+Best fold index      : 3
+Average EER          : 0.057778
+Average Precision    : 0.942222
+Average Recall       : 0.942222
+Average F1           : 0.942222
+
+5-Fold final training metrics
+Avg Training Accuracy   : 0.999383 กำ 0.000393
+Avg Validation Accuracy : 0.968827 กำ 0.007648
+Avg Training Loss       : 0.010547 กำ 0.000140
+Avg Validation Loss     : 0.018020 กำ 0.002141

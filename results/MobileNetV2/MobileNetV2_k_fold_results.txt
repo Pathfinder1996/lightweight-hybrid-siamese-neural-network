@@ -1,0 +1,32 @@
+5-Fold Results for MobileNetV2
+
+Dataset: Ours
+EER       : 0.046667 กำ 0.012191
+Precision : 0.954999 กำ 0.015012
+Recall    : 0.951667 กำ 0.014337
+F1        : 0.953260 กำ 0.012233
+
+Dataset: FYO
+EER       : 0.218125 กำ 0.015891
+Precision : 0.781533 กำ 0.015998
+Recall    : 0.782500 กำ 0.015762
+F1        : 0.782014 กำ 0.015832
+
+Dataset: PUT
+EER       : 0.173000 กำ 0.024617
+Precision : 0.827805 กำ 0.026500
+Recall    : 0.826000 กำ 0.024166
+F1        : 0.826856 กำ 0.024573
+
+Best fold by lowest average EER across all datasets
+Best fold index      : 3
+Average EER          : 0.129618
+Average Precision    : 0.875028
+Average Recall       : 0.864792
+Average F1           : 0.869857
+
+5-Fold final training metrics
+Avg Training Accuracy   : 0.998920 กำ 0.000707
+Avg Validation Accuracy : 0.926543 กำ 0.017090
+Avg Training Loss       : 0.002689 กำ 0.001068
+Avg Validation Loss     : 0.031733 กำ 0.008781

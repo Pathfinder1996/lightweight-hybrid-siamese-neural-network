@@ -1,0 +1,32 @@
+5-Fold Results for EfficientNetB0
+
+Dataset: Ours
+EER       : 0.061667 กำ 0.015456
+Precision : 0.941437 กำ 0.018704
+Recall    : 0.935000 กำ 0.014337
+F1        : 0.938164 กำ 0.015331
+
+Dataset: FYO
+EER       : 0.245312 กำ 0.038107
+Precision : 0.755219 กำ 0.038521
+Recall    : 0.753750 กำ 0.037469
+F1        : 0.754482 กำ 0.037980
+
+Dataset: PUT
+EER       : 0.196000 กำ 0.048000
+Precision : 0.805265 กำ 0.048224
+Recall    : 0.802000 กำ 0.047917
+F1        : 0.803616 กำ 0.047958
+
+Best fold by lowest average EER across all datasets
+Best fold index      : 5
+Average EER          : 0.141701
+Average Precision    : 0.858588
+Average Recall       : 0.857778
+Average F1           : 0.858182
+
+5-Fold final training metrics
+Avg Training Accuracy   : 0.995370 กำ 0.007540
+Avg Validation Accuracy : 0.920988 กำ 0.011482
+Avg Training Loss       : 0.006826 กำ 0.004536
+Avg Validation Loss     : 0.031439 กำ 0.002377

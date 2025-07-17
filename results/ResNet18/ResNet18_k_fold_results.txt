@@ -1,0 +1,32 @@
+5-Fold Results for ResNet18
+
+Dataset: Ours
+EER       : 0.002500 กำ 0.002041
+Precision : 0.998347 กำ 0.003306
+Recall    : 0.996667 กำ 0.004082
+F1        : 0.997496 กำ 0.002044
+
+Dataset: FYO
+EER       : 0.093438 กำ 0.014094
+Precision : 0.905808 กำ 0.014227
+Recall    : 0.907500 กำ 0.013919
+F1        : 0.906653 กำ 0.014057
+
+Dataset: PUT
+EER       : 0.174000 กำ 0.035693
+Precision : 0.824939 กำ 0.037595
+Recall    : 0.828000 กำ 0.033106
+F1        : 0.826445 กำ 0.035165
+
+Best fold by lowest average EER across all datasets
+Best fold index      : 3
+Average EER          : 0.066146
+Average Precision    : 0.934674
+Average Recall       : 0.932708
+Average F1           : 0.933683
+
+5-Fold final training metrics
+Avg Training Accuracy   : 0.999691 กำ 0.000289
+Avg Validation Accuracy : 0.966667 กำ 0.008542
+Avg Training Loss       : 0.002020 กำ 0.000416
+Avg Validation Loss     : 0.015080 กำ 0.002031
