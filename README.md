@@ -1,2 +1,1 @@
-# lightweight-hybrid-siamese-neural-network
-A Lightweight Hybrid Siamese Neural Network for wrist vein feature matching
+## 📝 輕量混合孿生神經網路
