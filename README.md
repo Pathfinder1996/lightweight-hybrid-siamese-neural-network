@@ -16,14 +16,17 @@
 - `plot_ours_all_db.py` - 自定義函式部分，將實驗數據資料視覺化。將 Ours 自建的模型在三個資料庫上每一折交叉驗證的訓練結果繪製在同一張圖上。
 - `plot_utils.py` - 自定義函式部分，評估指標的計算與圖表繪製(包含混淆矩陣、DET曲線上的EER等等...)。
 
+## 📁 資料庫
+
+
 ## 📦 模型架構
 - 主架構:
 
-![main](image/0.png)
+![main](image/1.svg)
   
-- 特徵提取子網路:
+- 特徵提取子網路(Subnetwork):
 
-![subnet](image/0.png)
+![subnet](image/2.svg)
 
 ## 📊 實驗結果
 
