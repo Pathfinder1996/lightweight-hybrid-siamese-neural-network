@@ -17,7 +17,10 @@
 - `plot_utils.py` - 自定義函式部分，評估指標的計算與圖表繪製(包含混淆矩陣、DET曲線上的EER等等...)。
 
 ## 📁 資料庫
-
+用來訓練模型的三個手腕靜脈資料庫分別為 NTUST-IB811、FYO 與 PUT
+- NTUST-IB811: 本論文所收集之手腕靜脈影像。
+- FYO: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者](https://fyo.emu.edu.tr/en/download)
+- PUT: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者](https://digital-library.theiet.org/doi/abs/10.1049/el.2011.1441)
 
 ## 📦 模型架構
 - 主架構:
