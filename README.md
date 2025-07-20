@@ -18,9 +18,9 @@
 
 ## 📁 資料庫
 用來訓練模型的三個手腕靜脈資料庫分別為 NTUST-IB811、FYO 與 PUT
-- NTUST-IB811: 本論文所收集之手腕靜脈影像。
-- FYO: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者](https://fyo.emu.edu.tr/en/download)
-- PUT: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者](https://digital-library.theiet.org/doi/abs/10.1049/el.2011.1441)
+- NTUST-IB811: 本研究所收集之手腕靜脈影像。 [點此連結下載 ntust_ib811_wrist_vein_database 這個資料夾(共 2400 張左右手手腕靜脈影像)](https://github.com/Pathfinder1996/ntust-ib811-wrist-vein-verification-system)
+- FYO: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者填寫申請表格](https://fyo.emu.edu.tr/en/download)
+- PUT: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者填寫申請表格](https://digital-library.theiet.org/doi/abs/10.1049/el.2011.1441)
 
 ## 📦 模型架構
 - 主架構:
