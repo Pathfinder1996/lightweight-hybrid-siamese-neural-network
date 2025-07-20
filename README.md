@@ -16,10 +16,12 @@
 - `plot_all_model_db.py` - 自定義函式部分，將實驗數據資料視覺化。將所有模型的訓練結果(DET 與 ROC Curve)繪製在同一張圖上。
 - `plot_ours_all_db.py` - 自定義函式部分，將實驗數據資料視覺化。將 Ours 自建的模型在三個資料庫上每一折交叉驗證的訓練結果繪製在同一張圖上。
 - `plot_utils.py` - 自定義函式部分，評估指標的計算與圖表繪製(包含混淆矩陣、DET曲線上的EER等等...)。
+- `plot_utils.py` - 自定義函式部分，評估指標的計算與圖表繪製(包含混淆矩陣、DET曲線上的EER等等...)。
+- `requirements.txt` - Python3.9.2 用到的函式庫及其版本。
 
 ## 📁 資料庫
-用來訓練模型的三個手腕靜脈資料庫分別為 NTUST-IB811、FYO 與 PUT
-- NTUST-IB811: 本研究所收集之手腕靜脈影像。 [點此連結下載 ntust_ib811_wrist_vein_database 這個資料夾(共 2400 張左右手手腕靜脈影像)](https://github.com/Pathfinder1996/ntust-ib811-wrist-vein-verification-system)
+用來訓練模型的三個手腕靜脈資料庫分別為 NTUST-IB811、FYO 與 PUT。
+- NTUST-IB811: 本研究裝置所收集之手腕靜脈影像。 [點此連結下載 ntust_ib811_wrist_vein_database 這個資料夾(共 2400 張左右手手腕靜脈影像)](https://github.com/Pathfinder1996/ntust-ib811-wrist-vein-verification-system)
 - FYO: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者填寫申請表格](https://fyo.emu.edu.tr/en/download)
 - PUT: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者填寫申請表格](https://digital-library.theiet.org/doi/abs/10.1049/el.2011.1441)
 
@@ -39,7 +41,7 @@
 ## 📊 實驗結果 (點擊縮圖可放大)
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th> </th>
+    <th>描述</th>
     <th>K = 1</th>
     <th>K = 2</th>
     <th>K = 3</th>
@@ -58,7 +60,7 @@
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th> </th>
+    <th>描述</th>
     <th>K = 1</th>
     <th>K = 2</th>
     <th>K = 3</th>
@@ -77,13 +79,13 @@
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th> </th>
+    <th>描述</th>
     <th>NTUST-IB811</th>
     <th>FYO</th>
     <th>PUT</th>
   </tr>
   <tr>
-    <td>各模型作為特徵提取層在三個資料庫上測試的 DET 曲線與 EER 比較圖</td>
+    <td>各模型作為特徵提取層在三個資料庫上測試的最佳折 DET 曲線與 EER 比較圖</td>
     <td><img src="results/All_Model_Ours_DET_Comparison.svg" width="300"/></td>
     <td><img src="results/All_Model_FYO_DET_Comparison.svg" width="300"/></td>
     <td><img src="results/All_Model_PUT_DET_Comparison.svg" width="300"/></td>
