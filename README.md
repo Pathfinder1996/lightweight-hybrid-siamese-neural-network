@@ -37,7 +37,24 @@
 <td><img src="image/3.PNG" width="500"/></td>
 
 ## 📊 實驗結果
-
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th> </th>
+    <th>K = 1</th>
+    <th>K = 2</th>
+    <th>K = 3</th>
+    <th>K = 4</th>
+    <th>K = 5</th>
+  </tr>
+  <tr>
+    <td>K 折交叉驗證之每折損失函數曲線圖</td>
+    <td><img src="result/Ours/Ours_loss_fold_1.svg" width="300"/></td>
+    <td><img src="result/Ours/Ours_loss_fold_2.svg" width="300"/></td>
+    <td><img src="result/Ours/Ours_loss_fold_3.svg" width="300"/></td>
+    <td><img src="result/Ours/Ours_loss_fold_4.svg" width="300"/></td>
+    <td><img src="result/Ours/Ours_loss_fold_5.svg" width="300"/></td>
+  </tr>
+</table>
 
 ## 🚀 如何使用
 請輸入以下指令建置 Python3.9.2 環境用到的函式庫及其版本:
