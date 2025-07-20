@@ -67,11 +67,26 @@
   </tr>
   <tr>
     <td>本研究模型每折在三個資料庫上測試的 DET 曲線與 EER</td>
-    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_1" width="300"/></td>
-    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_2" width="300"/></td>
-    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_3" width="300"/></td>
-    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_4" width="300"/></td>
-    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_5" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_1.svg" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_2.svg" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_3.svg" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_4.svg" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_5.svg" width="300"/></td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th> </th>
+    <th>NTUST-IB811</th>
+    <th>FYO</th>
+    <th>PUT</th>
+  </tr>
+  <tr>
+    <td>各模型作為特徵提取層在三個資料庫上測試的 DET 曲線與 EER 比較圖</td>
+    <td><img src="results/All_Model_Ours_DET_Comparison.svg" width="300"/></td>
+    <td><img src="results/All_Model_FYO_DET_Comparison.svg" width="300"/></td>
+    <td><img src="results/All_Model_PUT_DET_Comparison.svg" width="300"/></td>
   </tr>
 </table>
 
