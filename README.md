@@ -38,6 +38,10 @@
 
 <td><img src="image/3.PNG" width="500"/></td>
 
+## 📦 模型訓練流程圖 (點擊縮圖可放大)
+
+<td><img src="image/4.svg" width="600"/></td>
+
 ## 📊 實驗結果 (點擊縮圖可放大)
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
