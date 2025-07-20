@@ -10,7 +10,7 @@
 - `data_loader.py` - 訓練資料載入與訓練標籤製作。
 - `labels_vis.py` - 將訓練標籤製作視覺化。
 - `main.py` - 主程式(建模)。
-- `models.py` - 各模型主架構(包含本論文(Ours)、ResNet、MobileNet 自定義的一些測試架構等等...)。
+- `models.py` - 各模型主架構(包含本研究架構(Ours)、ResNet18、歷代 MobileNet 與自定義的一些測試架構等等...)。
 - `my_metrics.py` -  參考 stack overflow 或其他教學網站自定義的模型評估指標(像是對比損失函數、歐幾里得距離等等...)。
 - `plot_all_model_db.py` - 自定義函式部分，將實驗數據資料視覺化。將所有模型的訓練結果(DET 與 ROC Curve)繪製在同一張圖上。
 - `plot_ours_all_db.py` - 自定義函式部分，將實驗數據資料視覺化。將 Ours 自建的模型在三個資料庫上每一折交叉驗證的訓練結果繪製在同一張圖上。
