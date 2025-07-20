@@ -41,7 +41,7 @@
 ## 📊 實驗結果 (點擊縮圖可放大)
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th> </th>
+    <th>描述</th>
     <th>K = 1</th>
     <th>K = 2</th>
     <th>K = 3</th>
@@ -60,7 +60,7 @@
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th> </th>
+    <th>描述</th>
     <th>K = 1</th>
     <th>K = 2</th>
     <th>K = 3</th>
@@ -79,7 +79,7 @@
 
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
-    <th> </th>
+    <th>描述</th>
     <th>NTUST-IB811</th>
     <th>FYO</th>
     <th>PUT</th>
