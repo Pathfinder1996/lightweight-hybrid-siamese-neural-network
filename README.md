@@ -6,6 +6,7 @@
 模型架構、損失函數選用、超參數設置與訓練流程皆在我的論文第 50–57 頁。[請點此到我的論文連結並到電子全文下載論文](https://etheses.lib.ntust.edu.tw/thesis/detail/2b733280676d7c87e0445313c40a9b74/?seq=2#)
 
 ### 📁 壓縮檔內容
+- `results` - 本研究所有實驗結果圖與訓練好的模型。(由於 GitHub 單次上傳檔案大小的限制，資料夾內只放本研究(Ours)最佳 K 折模型與轉為 TFLite 的模型)
 - `blocks.py` - 定義 models.py(模型主架構)中所用到的一些 blocks(像是卷積、深度分離卷積、殘差塊、反向殘差塊等等...)。
 - `data_loader.py` - 訓練資料載入與訓練標籤製作。
 - `labels_vis.py` - 將訓練標籤製作視覺化。
@@ -22,7 +23,7 @@
 - FYO: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者填寫申請表格](https://fyo.emu.edu.tr/en/download)
 - PUT: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者填寫申請表格](https://digital-library.theiet.org/doi/abs/10.1049/el.2011.1441)
 
-## 📦 模型架構
+## 📦 模型架構 (點擊縮圖可放大)
 - 主架構:
 
 ![main](image/1.svg)
@@ -32,10 +33,62 @@
 ![subnet](image/2.svg)
 
 - 特徵提取子網路各層參數設置:
-![op](image/3.PNG)
 
-## 📊 實驗結果
+<td><img src="image/3.PNG" width="500"/></td>
 
+## 📊 實驗結果 (點擊縮圖可放大)
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th> </th>
+    <th>K = 1</th>
+    <th>K = 2</th>
+    <th>K = 3</th>
+    <th>K = 4</th>
+    <th>K = 5</th>
+  </tr>
+  <tr>
+    <td>K 折交叉驗證之每折訓練與驗證損失函數曲線圖</td>
+    <td><img src="results/Ours/Ours_loss_fold_1.svg" width="300"/></td>
+    <td><img src="results/Ours/Ours_loss_fold_2.svg" width="300"/></td>
+    <td><img src="results/Ours/Ours_loss_fold_3.svg" width="300"/></td>
+    <td><img src="results/Ours/Ours_loss_fold_4.svg" width="300"/></td>
+    <td><img src="results/Ours/Ours_loss_fold_5.svg" width="300"/></td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th> </th>
+    <th>K = 1</th>
+    <th>K = 2</th>
+    <th>K = 3</th>
+    <th>K = 4</th>
+    <th>K = 5</th>
+  </tr>
+  <tr>
+    <td>本研究模型每折在三個資料庫上測試的 DET 曲線與 EER</td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_1.svg" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_2.svg" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_3.svg" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_4.svg" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_5.svg" width="300"/></td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th> </th>
+    <th>NTUST-IB811</th>
+    <th>FYO</th>
+    <th>PUT</th>
+  </tr>
+  <tr>
+    <td>各模型作為特徵提取層在三個資料庫上測試的 DET 曲線與 EER 比較圖</td>
+    <td><img src="results/All_Model_Ours_DET_Comparison.svg" width="300"/></td>
+    <td><img src="results/All_Model_FYO_DET_Comparison.svg" width="300"/></td>
+    <td><img src="results/All_Model_PUT_DET_Comparison.svg" width="300"/></td>
+  </tr>
+</table>
 
 ## 🚀 如何使用
 請輸入以下指令建置 Python3.9.2 環境用到的函式庫及其版本:
