@@ -47,12 +47,31 @@
     <th>K = 5</th>
   </tr>
   <tr>
-    <td>K 折交叉驗證之每折損失函數曲線圖</td>
+    <td>K 折交叉驗證之每折訓練與驗證損失函數曲線圖</td>
     <td><img src="results/Ours/Ours_loss_fold_1.svg" width="300"/></td>
     <td><img src="results/Ours/Ours_loss_fold_2.svg" width="300"/></td>
     <td><img src="results/Ours/Ours_loss_fold_3.svg" width="300"/></td>
     <td><img src="results/Ours/Ours_loss_fold_4.svg" width="300"/></td>
     <td><img src="results/Ours/Ours_loss_fold_5.svg" width="300"/></td>
+  </tr>
+</table>
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th> </th>
+    <th>K = 1</th>
+    <th>K = 2</th>
+    <th>K = 3</th>
+    <th>K = 4</th>
+    <th>K = 5</th>
+  </tr>
+  <tr>
+    <td>本研究模型每折在三個資料庫上測試的 DET 曲線與 EER</td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_1" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_2" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_3" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_4" width="300"/></td>
+    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_5" width="300"/></td>
   </tr>
 </table>
 
