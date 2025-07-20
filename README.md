@@ -36,7 +36,7 @@
 
 <td><img src="image/3.PNG" width="500"/></td>
 
-## 📊 實驗結果
+## 📊 實驗結果 (點擊縮圖可放大)
 <table border="1" cellspacing="0" cellpadding="6">
   <tr>
     <th> </th>
@@ -48,11 +48,11 @@
   </tr>
   <tr>
     <td>K 折交叉驗證之每折損失函數曲線圖</td>
-    <td><img src="result/Ours/Ours_loss_fold_1.svg" width="300"/></td>
-    <td><img src="result/Ours/Ours_loss_fold_2.svg" width="300"/></td>
-    <td><img src="result/Ours/Ours_loss_fold_3.svg" width="300"/></td>
-    <td><img src="result/Ours/Ours_loss_fold_4.svg" width="300"/></td>
-    <td><img src="result/Ours/Ours_loss_fold_5.svg" width="300"/></td>
+    <td><img src="results/Ours/Ours_loss_fold_1.svg" width="300"/></td>
+    <td><img src="results/Ours/Ours_loss_fold_2.svg" width="300"/></td>
+    <td><img src="results/Ours/Ours_loss_fold_3.svg" width="300"/></td>
+    <td><img src="results/Ours/Ours_loss_fold_4.svg" width="300"/></td>
+    <td><img src="results/Ours/Ours_loss_fold_5.svg" width="300"/></td>
   </tr>
 </table>
 
