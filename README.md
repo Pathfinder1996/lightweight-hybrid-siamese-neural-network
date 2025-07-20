@@ -33,7 +33,7 @@
 
 - 特徵提取子網路各層參數設置:
 
-![op](image/3.PNG)
+<td><img src="image/3.PNG" width="500"/></td>
 
 ## 📊 實驗結果
 
