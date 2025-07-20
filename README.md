@@ -22,7 +22,7 @@
 - FYO: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者填寫申請表格](https://fyo.emu.edu.tr/en/download)
 - PUT: 經申請後下載。 [點此連結到資料庫申請網址或聯繫期刊作者填寫申請表格](https://digital-library.theiet.org/doi/abs/10.1049/el.2011.1441)
 
-## 📦 模型架構
+## 📦 模型架構 (點擊縮圖可放大)
 - 主架構:
 
 ![main](image/1.svg)
