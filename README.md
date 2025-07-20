@@ -89,7 +89,7 @@
     <th>PUT</th>
   </tr>
   <tr>
-    <td>各模型作為特徵提取層在三個資料庫上測試的最佳折 DET 曲線與 EER 比較圖</td>
+    <td>各模型作為特徵提取層(皆移除Softmax)在三個資料庫上測試的最佳折 DET 曲線與 EER 比較圖</td>
     <td><img src="results/All_Model_Ours_DET_Comparison.svg" width="300"/></td>
     <td><img src="results/All_Model_FYO_DET_Comparison.svg" width="300"/></td>
     <td><img src="results/All_Model_PUT_DET_Comparison.svg" width="300"/></td>
