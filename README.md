@@ -96,7 +96,7 @@
   </tr>
 </table>
 
-## 🔧 GPU 規格與 CUDA 版本
+## 🔧 本研究訓練所使用之 GPU 規格與 CUDA 版本
 - NVIDIA RTX3060 12G
 - CUDA 11.2
 - cuDNN 8.1.1
