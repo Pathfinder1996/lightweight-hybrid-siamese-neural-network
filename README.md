@@ -16,6 +16,8 @@
 - `plot_all_model_db.py` - 自定義函式部分，將實驗數據資料視覺化。將所有模型的訓練結果(DET 與 ROC Curve)繪製在同一張圖上。
 - `plot_ours_all_db.py` - 自定義函式部分，將實驗數據資料視覺化。將 Ours 自建的模型在三個資料庫上每一折交叉驗證的訓練結果繪製在同一張圖上。
 - `plot_utils.py` - 自定義函式部分，評估指標的計算與圖表繪製(包含混淆矩陣、DET曲線上的EER等等...)。
+- `plot_utils.py` - 自定義函式部分，評估指標的計算與圖表繪製(包含混淆矩陣、DET曲線上的EER等等...)。
+- `requirements.txt` - Python3.9.2 用到的函式庫及其版本。
 
 ## 📁 資料庫
 用來訓練模型的三個手腕靜脈資料庫分別為 NTUST-IB811、FYO 與 PUT
@@ -83,7 +85,7 @@
     <th>PUT</th>
   </tr>
   <tr>
-    <td>各模型作為特徵提取層在三個資料庫上測試的 DET 曲線與 EER 比較圖</td>
+    <td>各模型作為特徵提取層在三個資料庫上測試的最佳折 DET 曲線與 EER 比較圖</td>
     <td><img src="results/All_Model_Ours_DET_Comparison.svg" width="300"/></td>
     <td><img src="results/All_Model_FYO_DET_Comparison.svg" width="300"/></td>
     <td><img src="results/All_Model_PUT_DET_Comparison.svg" width="300"/></td>
