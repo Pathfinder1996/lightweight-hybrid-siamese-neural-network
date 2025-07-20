@@ -96,6 +96,11 @@
   </tr>
 </table>
 
+## 🔧 GPU 規格與 CUDA 版本
+- NVIDIA RTX3060 12G
+- CUDA 11.2
+- cuDNN 8.1.1
+
 ## 🚀 如何使用
 請輸入以下指令建置 Python3.9.2 環境用到的函式庫及其版本:
 ```
