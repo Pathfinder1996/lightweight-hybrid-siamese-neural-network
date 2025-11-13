@@ -33,67 +33,9 @@
 
 ![subnet](image/2.svg)
 
-- 特徵提取子網路各層參數設置:
-
-<td><img src="image/3.PNG" width="500"/></td>
-
 ## 📦 模型訓練流程圖 (點擊縮圖可放大)
 
 <td><img src="image/4.svg" width="600"/></td>
-
-## 📊 實驗結果 (點擊縮圖可放大)
-<table border="1" cellspacing="0" cellpadding="6">
-  <tr>
-    <th>描述</th>
-    <th>K = 1</th>
-    <th>K = 2</th>
-    <th>K = 3</th>
-    <th>K = 4</th>
-    <th>K = 5</th>
-  </tr>
-  <tr>
-    <td>K 折交叉驗證之每折訓練與驗證損失函數曲線圖</td>
-    <td><img src="results/Ours/Ours_loss_fold_1.svg" width="300"/></td>
-    <td><img src="results/Ours/Ours_loss_fold_2.svg" width="300"/></td>
-    <td><img src="results/Ours/Ours_loss_fold_3.svg" width="300"/></td>
-    <td><img src="results/Ours/Ours_loss_fold_4.svg" width="300"/></td>
-    <td><img src="results/Ours/Ours_loss_fold_5.svg" width="300"/></td>
-  </tr>
-</table>
-
-<table border="1" cellspacing="0" cellpadding="6">
-  <tr>
-    <th>描述</th>
-    <th>K = 1</th>
-    <th>K = 2</th>
-    <th>K = 3</th>
-    <th>K = 4</th>
-    <th>K = 5</th>
-  </tr>
-  <tr>
-    <td>本研究模型每折在三個資料庫上測試的 DET 曲線與 EER</td>
-    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_1.svg" width="300"/></td>
-    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_2.svg" width="300"/></td>
-    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_3.svg" width="300"/></td>
-    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_4.svg" width="300"/></td>
-    <td><img src="results/Ours_Model_All_Datasets_DET_Comparison_fold_5.svg" width="300"/></td>
-  </tr>
-</table>
-
-<table border="1" cellspacing="0" cellpadding="6">
-  <tr>
-    <th>描述</th>
-    <th>NTUST-IB811</th>
-    <th>FYO</th>
-    <th>PUT</th>
-  </tr>
-  <tr>
-    <td>各模型作為特徵提取層(皆移除Softmax)在三個資料庫上測試的最佳折 DET 曲線與 EER 比較圖</td>
-    <td><img src="results/All_Model_Ours_DET_Comparison.svg" width="300"/></td>
-    <td><img src="results/All_Model_FYO_DET_Comparison.svg" width="300"/></td>
-    <td><img src="results/All_Model_PUT_DET_Comparison.svg" width="300"/></td>
-  </tr>
-</table>
 
 ## 🔧 本研究訓練所使用之 GPU 規格與 CUDA 版本
 - NVIDIA RTX3060 12G
