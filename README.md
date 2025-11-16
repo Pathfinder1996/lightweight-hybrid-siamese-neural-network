@@ -28,11 +28,11 @@ Three wrist-vein datasets were used for model training:
 ## Model Architecture (click images to enlarge)
 -  Hybrid Siamese Neural Network:
 
-![main](image/1.svg)
+![main](image/fig13.png)
 
 ## Training Workflow (click to enlarge)
 
-<td><img src="image/4.svg" width="600"/></td>
+<td><img src="image/fig16.png" width="600"/></td>
 
 ## 🔧 GPU and CUDA Environment
 - NVIDIA RTX3060 (12 GB VRAM)
