@@ -5,7 +5,7 @@ The trained models can be exported to TFLite format for deployment on resource-c
 
 ## Contents
 - `benchmark_energy.py` - Measures GPU power consumption and energy per inference for all models.
-- `best_model_score.py` - 
+- `best_model_score.py` - The scoring method follows the weighted normalization strategy proposed in Romano *et al*. [1], enabling fair comparison of models under energy-constrained edge-AI environments.
 - `blocks.py` - Building blocks used in `models.py` (Conv, Depthwise Conv, Residual Block, Inverted Residual Block, SE block, etc.).
 - `data_loader.py` - Dataset loader and label-pair generator for Siamese training.
 - `labels_vis.py` - Visualizes positive and negative training pairs.
@@ -21,9 +21,9 @@ The trained models can be exported to TFLite format for deployment on resource-c
 
 ## Datasets
 Three wrist-vein datasets were used for model training:
-- NTUST-IB811 [1]: Collected using our imaging device [https://ieee-dataport.org/documents/ntust-ib811-wrist-vein-dataset](https://ieee-dataport.org/documents/ntust-ib811-wrist-vein-dataset)
-- FYO [2]: Available upon request
-- PUT [3]: Available upon request
+- NTUST-IB811 [2]: Collected using our imaging device [https://ieee-dataport.org/documents/ntust-ib811-wrist-vein-dataset](https://ieee-dataport.org/documents/ntust-ib811-wrist-vein-dataset)
+- FYO [3]: Available upon request
+- PUT [4]: Available upon request
 
 ## Model Architecture (click images to enlarge)
 -  Hybrid Siamese Neural Network:
@@ -50,12 +50,17 @@ python .\main.py
 ```
 
 ## Reference
-[1] Sheng-Yan Dai, "NTUST-IB811 Wrist Vein Dataset", *IEEE Dataport*, November 13, 2025, doi:10.21227/w3ec-br30
+[1] D. Romano, C. Mennella, and M. Lapegna, ‘‘Adeep learning-based method
+for efficient floating garbage debris recognition on high-performance edge
+computing platform,’’ *Future Gener. Comput. Syst.*, vol. 174, p. 108000,
+2026, doi: 10.1016/j.future.2025.108000.
 
-[2] Ö. Toygar, F. O. Babalola and Y. Bitirim, ‘‘FYO: A Novel Multimodal Vein
+[2] Sheng-Yan Dai, "NTUST-IB811 Wrist Vein Dataset", *IEEE Dataport*, November 13, 2025, doi:10.21227/w3ec-br30
+
+[3] Ö. Toygar, F. O. Babalola and Y. Bitirim, ‘‘FYO: A Novel Multimodal Vein
 Database With Palmar, Dorsal and Wrist Biometrics,’’ *IEEE Access*, vol.
 8, pp. 82461-82470, 2020, doi: 10.1109/ACCESS.2020.2991475.
 
-[3] R. Kabaciński and M. Kowalski, ‘‘Vein pattern database and benchmark
+[4] R. Kabaciński and M. Kowalski, ‘‘Vein pattern database and benchmark
 results,’’ *Electron. Lett.*, vol. 47, no. 20, pp. 1127–1128, Oct. 2011, doi:
 10.1049/el.2011.1441.
