@@ -28,7 +28,7 @@ Three wrist-vein datasets were used for model training:
 ## Model Architecture (click images to enlarge)
 -  Hybrid Siamese Neural Network:
 
-![main](image/fig13.png)
+<td><img src="image/fig13.png" width="600"/></td>
 
 ## Training Workflow (click to enlarge)
 
